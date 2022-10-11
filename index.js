@@ -36,7 +36,7 @@ inquirer
         {
             type: 'confirm',
             message: 'Are there installation instructions?',
-            default: true;
+            default: true
         },
         {
             type: 'input',
