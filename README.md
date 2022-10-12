@@ -1,9 +1,9 @@
 
-  # kjkj
+  # kj
 
   ## Description
 
-  kjkj
+  kj
 
   ## Table of Contents
 
@@ -15,7 +15,7 @@
   - [Questions](#questions)
 
   ## Usage
-  kjkj
+  kj
   
 
   ## License
@@ -23,5 +23,5 @@
   Application includes the MIT license
 
   ## Questions
-  Author: kjkj and link kjk
-  For questions, please feel free to contact me at kjj
+  Author Link: [GitHub Link](https://github.com/Angi-Adema)
+  For questions, please feel free to contact me at kj

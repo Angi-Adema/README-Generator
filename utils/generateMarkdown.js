@@ -53,7 +53,7 @@ function generateMarkdown(data) {
 ${renderLicenseSection(data.license)}
 
   ## Questions
-  Author: ${data.githubUsername} and link ${data.githubLink}
+  Author Link: [GitHub Link](https://github.com/Angi-Adema)
   For questions, please feel free to contact me at ${data.email}
 `;
 }

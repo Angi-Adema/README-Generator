@@ -30,12 +30,12 @@ const questions = [{
         }
     }
 },
-{
-    type: 'confirm',
-    message: 'Are there installation instructions?',
-    name: 'confirmInstall',
-    default: true
-},
+// {
+//     type: 'confirm',
+//     message: 'Are there installation instructions?',
+//     name: 'confirmInstall',
+//     default: true
+// },
 {
     type: 'input',
     message: 'Are there any special commands for installation?',
@@ -50,7 +50,7 @@ const questions = [{
 },
 {
     type: 'input',
-    message: 'Share how this project is to be used. (Required)',
+    message: 'Share how this project is to be used, technologies used & anything special about utilizing the app. (Required)',
     name: 'usage',
     validate: usageInput => {
         if (usageInput) {
@@ -110,7 +110,7 @@ const questions = [{
         }
     }
 },
-{ 
+{
     type: 'list',
     message: 'Please select a license:',
     name: 'license',
@@ -159,18 +159,20 @@ const questions = [{
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    fs.writeFileSync(fileName, data)
- }
+    fs.writeFileSync(fileName, data, (error) =>
+    error? console.error(error) : console.log("Success!")
+    );
+}
 
 // TODO: Create a function to initialize app
 function init() {
     inquirer
-    .prompt(questions)
-    .then((answers) => {
-        console.log(answers);
-         writeToFile('README.md', generateMarkdown(answers))
-    })
- }
+        .prompt(questions)
+        .then((answers) => {
+            console.log(answers);
+            writeToFile('README.md', generateMarkdown(answers))
+        })
+}
 
 // Function call to initialize app
 init();
