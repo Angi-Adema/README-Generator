@@ -19,7 +19,7 @@ const questions = [{
 },
 {
     type: 'input',
-    message: 'Enter the description of your project. (Required)',
+    message: 'Enter the description of the project, what it does. (Required)',
     name: 'description',
     validate: descriptionInput => {
         if (descriptionInput) {
@@ -30,12 +30,6 @@ const questions = [{
         }
     }
 },
-// {
-//     type: 'confirm',
-//     message: 'Are there installation instructions?',
-//     name: 'confirmInstall',
-//     default: true
-// },
 {
     type: 'input',
     message: 'Are there any special commands for installation?',
@@ -61,33 +55,14 @@ const questions = [{
     }
 },
 {
-    type: 'confirm',
-    message: 'Was there a collaborator on this project?',
-    name: 'collaborator',
-    default: true
-},
-{
     type: 'input',
-    message: 'Please state the name of the collaborator. (Required)',
-    name: 'name',
-    validate: linkInput => {
-        if (linkInput) {
+    message: 'Specify any contribution requirements:',
+    name: 'contribution',
+    validate: contributionInput => {
+        if (contributionInput) {
             return true;
         } else {
-            console.log('Please enter GitHub link.');
-            return false;
-        }
-    }
-},
-{
-    type: 'input',
-    message: 'Enter the GitHub link for your collaborator. (Required)',
-    name: 'collaboratorLink',
-    validate: linkInput => {
-        if (linkInput) {
-            return true;
-        } else {
-            console.log('Enter your collaborator GitHub link.');
+            console.log('Please enter your contribution requirements.');
             return false;
         }
     }
@@ -112,9 +87,22 @@ const questions = [{
 },
 {
     type: 'list',
-    message: 'Please select a license:',
+    message: 'Please select a license your project is using:',
     name: 'license',
     choices: ['MIT', 'Apache 2.0', 'GPL', 'BSD', 'No License']
+},
+{
+    type: 'input',
+    message: 'Enter credits:',
+    name: 'credits',
+    validate: creditsInput => {
+        if (creditsInput) {
+            return true;
+        } else {
+            console.log('Enter credits.');
+            return false;
+        }
+    }
 },
 {
     type: 'input',
@@ -125,19 +113,6 @@ const questions = [{
             return true;
         } else {
             console.log('Enter GitHub username.');
-            return false;
-        }
-    }
-},
-{
-    type: 'input',
-    message: 'Enter your GitHub profile link: (Required)',
-    name: 'githubLink',
-    validate: linkInput => {
-        if (linkInput) {
-            return true;
-        } else {
-            console.log('Enter your GitHub profile link.');
             return false;
         }
     }
