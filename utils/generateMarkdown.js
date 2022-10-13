@@ -110,8 +110,6 @@ function generateMarkdown(data) {
   ## Contribution
 
   ## Test
-
-  ## License
   
 ${renderLicenseSection(data.license)}
 
