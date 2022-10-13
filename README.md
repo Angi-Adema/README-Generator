@@ -1,21 +1,22 @@
 
-  # kj
+  # Movie Finder
 
   ## Description
 
-  kj
+  dkjldkjalkdjflkdjlkjf;ladjfl;jd
 
   ## Table of Contents
 
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Collaborator](#collaborator)
-  - [Test](#test)
+  - [Installation](#installation) 
+  - [Usage](#usage) 
+  - [Contribution](#contribution) 
+  - [Test](#test) 
   - [License](#license)
+  - [Credits](#credits) 
   - [Questions](#questions)
 
   ## Usage
-  kj
+  alskdjflkjsdflkajf;ljd;lkajf;lkdj
   
 
   ## License
@@ -23,5 +24,5 @@
   Application includes the MIT license
 
   ## Questions
-  Author Link: [GitHub Link](https://github.com/Angi-Adema)
-  For questions, please feel free to contact me at kj
+  GitHub: (https://github.com/ajdlkjfa)
+  For questions, please feel free to contact me at asdkjkldjflakjd

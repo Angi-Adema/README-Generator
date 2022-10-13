@@ -40,12 +40,12 @@ function generateMarkdown(data) {
 
   ## Table of Contents
 
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Contribution](#contribution)
-  - [Test](#test)
+  - [Installation](#installation) 
+  - [Usage](#usage) 
+  - [Contribution](#contribution) 
+  - [Test](#test) 
  ${renderLicenseLink(data.license)}
-  - [Credits](#credits)
+  - [Credits](#credits) 
   - [Questions](#questions)
 
   ## Usage
@@ -54,7 +54,7 @@ function generateMarkdown(data) {
 ${renderLicenseSection(data.license)}
 
   ## Questions
-  Author Link: [GitHub Link](https://github.com/Angi-Adema)
+  GitHub: (https://github.com/${data.githubUsername})
   For questions, please feel free to contact me at ${data.email}
 `;
 }
