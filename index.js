@@ -34,10 +34,11 @@ const questions = [{
     type: 'input',
     message: 'Are there any special commands for installation?',
     name: 'installation',
-    when: ({ confirmInstallation }) => {
-        if (confirmInstallation) {
+    validate: installationInput => {
+        if (installationInput) {
             return true;
         } else {
+            console.log('Please enter installation instructions.');
             return false;
         }
     }
