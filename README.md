@@ -1,10 +1,10 @@
 
   # README Generator 
-  ![License](https://img.shields.io/badge/license-Apache 2.0-lightgreen)
+  ![License](https://img.shields.io/badge/license-MIT-lightgreen)
 
   ## Description
 
-  This app allows the user to quickly and efficiently generate a README.MD file so as to save time.
+  This app allows the user to quickly and efficiently generate a README.md file using MarkDown to quickly generate the document and add it to any project.
 
   ## Table of Contents
 
@@ -22,7 +22,7 @@
 
   ## Usage
 
-  This app is to be used to generate a professional README file. Technologies used are node inquirer and JavaScript.
+  This app is to be used in conjuction with any project to allow the user to generate a professional README file quickly and move on with deploying the application.
 
   ## Contribution
 
@@ -35,7 +35,7 @@
 
   ## License
 
-  Application includes the Apache 2.0 license
+  Application includes the MIT license
 
   ## Credits
 
