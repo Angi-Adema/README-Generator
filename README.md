@@ -6,6 +6,8 @@
 
   This app allows the user to quickly and efficiently generate a README.md file using MarkDown to quickly generate the document and add it to any project.
 
+  [Demo Video Recording](https://drive.google.com/file/d/1jTvq6Mc5GWjghSiGWr_x-mBL0wZu1pgB/view)
+
   ## Table of Contents
 
   - [Installation](#installation) 
