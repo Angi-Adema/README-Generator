@@ -20,7 +20,7 @@
 
   ## Installation
 
-  None
+  node index.js
 
   ## Usage
 
